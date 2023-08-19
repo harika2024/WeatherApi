@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherReport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>WeatherApi</h1>
+    <h3>Enter City</h3>
+    <input type="text" id="city"><br><br>
+    <button type="button" onclick="getdetails()">Submit</button>
+    <div>
+        <div id="place"></div>
+        <div id="min"></div>
+        <div id="max"></div>
+    </div>
+
+    <div class="container" id="table"></div>
+
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>
